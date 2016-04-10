@@ -17,9 +17,9 @@
    </div>
    
     <div class="row">
-        <div class="btn btn-success col-md-2 col-md-offset-3">LOGIN</div>
+        <a href="{!! action('Auth\AuthController@getRegister') !!}" class="btn btn-success col-sm-offset-3 col-sm-2">LOG IN</a>
+        <a href="{!! action('Auth\AuthController@getRegister') !!}" class="btn btn-success col-sm-offset-2 col-sm-2">SIGN UP</a>
         <!--        <div class="col-md-1"></div>-->
-        <div class="btn btn-success col-md-2 col-md-offset-2">SIGN UP</div>
     </div>
 </div>
 
